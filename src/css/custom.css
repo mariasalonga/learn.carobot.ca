@@ -1,0 +1,38 @@
+/* colour of the banner in the home page during light mode */
+:root {
+  --ifm-color-primary: #c1272d;
+  --ifm-color-primary-dark: #ae2328;
+  --ifm-color-primary-darker: #a42126;
+  --ifm-color-primary-darkest: #871b1f;
+  --ifm-color-primary-light: #d42b32;
+  --ifm-color-primary-lighter: #d6353b;
+  --ifm-color-primary-lightest: #dc5257;
+  --ifm-code-font-size: 95%;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* colour of the banner in the home page durinf dark mode */
+[data-theme='dark'] {
+  --ifm-color-primary: #c1272d;
+  --ifm-color-primary-dark: #ae2328;
+  --ifm-color-primary-darker: #a42126;
+  --ifm-color-primary-darkest: #871b1f;
+  --ifm-color-primary-light: #d42b32;
+  --ifm-color-primary-lighter: #d6353b;
+  --ifm-color-primary-lightest: #dc5257;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgb(0, 0, 0, 0.3);
+}
+
+.pagination-nav {
+  display: none;
+}
