@@ -7,7 +7,7 @@ This will teach you about digital inputs using buttons and LEDs. This is really 
 | Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" height="150" />       |
 | Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" height="150" />       |
 | Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190" height="150" />               |
-| LED (white, red, blue, or green)            | <img src="/img/docs/UNO-R4-Starter-Kit/LED.jpg" width="200" height="150" />                    |
+| LED (white, red, blue, or green)            | <img src="/img/docs/UNO-R4-Starter-Kit/LED.jpg" width="150" height="100" />                    |
 | Resistor (220 ohms for the LED, optional if using internal pull-up resistors for buttons) | <img src="/img/docs/UNO-R4-Starter-Kit/resistors.webp" width="190" height="150" />              |
 | 2 push buttons                              | <img src="/img/docs/UNO-R4-Starter-Kit/push-button.webp" width="190" height="150" />            |
 
